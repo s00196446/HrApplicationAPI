@@ -1,0 +1,14 @@
+GET http://127.0.0.1:3000/employees
+
+###
+
+POST http://127.0.0.1:3000/employees
+Content-Type: application/json
+
+{
+    "name": "Eric",
+    "day": "Monday"
+}
+
+###
+GET http://127.0.0.1:3000/employees/643f32379a0c4a0b3c890a5b
